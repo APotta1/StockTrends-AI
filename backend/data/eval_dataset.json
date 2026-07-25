@@ -1,0 +1,38 @@
+[
+  {
+    "ticker": "AAPL",
+    "period": "Q2 2025",
+    "input_text": "CONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)\n(In millions, except per share amounts)\nThree Months Ended March 29, 2025\nNet sales:\nProducts\t68,714\nServices\t22,116\nTotal net sales\t90,830\nCost of sales\t48,482\nGross margin\t42,348\nOperating income\t29,589\nNet income\t23,636\nEarnings per share:\nBasic\t1.54\nDiluted\t1.53",
+    "truth": {"revenue": 90830000000, "net_income": 23636000000, "eps": 1.53}
+  },
+  {
+    "ticker": "MSFT",
+    "period": "Q3 2025",
+    "input_text": "INCOME STATEMENTS (In millions, except per share amounts) (Unaudited)\nThree Months Ended March 31, 2025\nRevenue:\nProduct\t15,650\nService and other\t46,285\nTotal revenue\t61,935\nCost of revenue\t20,258\nGross margin\t41,677\nOperating income\t28,140\nNet income\t21,939\nEarnings per share:\nBasic\t2.95\nDiluted\t2.94",
+    "truth": {"revenue": 61935000000, "net_income": 21939000000, "eps": 2.94}
+  },
+  {
+    "ticker": "NVDA",
+    "period": "Q1 2026",
+    "input_text": "CONDENSED CONSOLIDATED STATEMENTS OF INCOME (In millions, except per share data) (Unaudited)\nThree Months Ended April 27, 2025\nRevenue\t44,062\nCost of revenue\t17,394\nGross profit\t26,668\nOperating income\t21,638\nNet income\t18,775\nNet income per share:\nBasic\t0.77\nDiluted\t0.76",
+    "truth": {"revenue": 44062000000, "net_income": 18775000000, "eps": 0.76}
+  },
+  {
+    "ticker": "COST",
+    "period": "Q3 2025",
+    "input_text": "CONDENSED CONSOLIDATED STATEMENTS OF INCOME\n(amounts in millions, except per share data) (unaudited)\n12 Weeks Ended May 11, 2025\nREVENUE\nNet sales\t61,964\nMembership fees\t1,236\nTotal revenue\t63,200\nOperating income\t2,437\nNet income attributable to Costco\t1,903\nNet income per common share:\nBasic\t4.29\nDiluted\t4.28",
+    "truth": {"revenue": 63200000000, "net_income": 1903000000, "eps": 4.28}
+  },
+  {
+    "ticker": "JPM",
+    "period": "Q2 2025",
+    "input_text": "CONSOLIDATED STATEMENTS OF INCOME (in millions, except per share data) (unaudited)\nThree months ended June 30, 2025\nTotal net revenue\t45,680\nProvision for credit losses\t2,850\nTotal noninterest expense\t23,780\nNet income\t14,987\nPer common share data:\nBasic earnings per share\t5.32\nDiluted earnings per share\t5.31",
+    "truth": {"revenue": 45680000000, "net_income": 14987000000, "eps": 5.31}
+  },
+  {
+    "ticker": "PG",
+    "period": "Q3 2025",
+    "input_text": "CONSOLIDATED STATEMENTS OF EARNINGS (Amounts in millions except per share amounts) (Unaudited)\nThree Months Ended March 31, 2025\nNet sales\t19,780\nCost of products sold\t9,540\nGross profit\t10,240\nOperating income\t4,690\nNet earnings attributable to Procter & Gamble\t3,750\nDiluted net earnings per common share\t1.54",
+    "truth": {"revenue": 19780000000, "net_income": 3750000000, "eps": 1.54}
+  }
+]

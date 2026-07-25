@@ -1,0 +1,15 @@
+# One command to a working API: `docker compose up --build`
+# Build context is the repo root so the Dockerfile can reach backend/ AND
+# backend/data. Runs in demo mode by default — no .env or keys required.
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DEMO_MODE: "true"
+      # To go live, set DEMO_MODE=false and supply keys via a .env file:
+      # env_file: .env
+    restart: unless-stopped
